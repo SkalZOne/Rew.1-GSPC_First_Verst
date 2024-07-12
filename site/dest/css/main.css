@@ -8,6 +8,12 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 button {
   border: none;
 }
@@ -150,9 +156,8 @@ header .innerchild .ring .innerring {
   flex-direction: column;
   align-items: center;
   width: 1339px;
-  height: 1100px;
+  height: 1050px;
   background-color: white;
-  border: 2px solid black;
 }
 .firstcontent .sponsores {
   display: flex;
@@ -183,13 +188,12 @@ header .innerchild .ring .innerring {
   height: 30.01px;
 }
 .firstcontent .innerchild {
-  border: 2px solid rgb(255, 0, 0);
-  margin-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 1139px;
   height: 888px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  margin-top: 100px;
 }
 .firstcontent .innerchild .imgs {
   width: 694px;
@@ -203,31 +207,130 @@ header .innerchild .ring .innerring {
   height: 705.45px;
 }
 .firstcontent .innerchild .rightblock {
-  border: 2px solid black;
   width: 485px;
   height: 500px;
   padding-top: 100px;
 }
 .firstcontent .innerchild .rightblock p:nth-child(1) {
-  color: #034D82;
   font-size: 36px;
   font-weight: 700;
+  color: #034D82;
   letter-spacing: 0.3px;
 }
 .firstcontent .innerchild .rightblock p:nth-child(2) {
   margin-top: 30px;
-  color: #90A3B4;
-  line-height: 32px;
   margin-bottom: 20px;
+  line-height: 32px;
+  color: #90A3B4;
 }
 .firstcontent .innerchild .rightblock a {
-  color: #04AADD;
   font-weight: 700;
+  color: #04AADD;
 }
 .firstcontent .innerchild .rightblock a img {
   position: relative;
   top: 1.5px;
   left: 10px;
   width: 15px;
+}
+
+.secondcontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1221px;
+  height: 426px;
+}
+.secondcontent .leftblock {
+  width: 485px;
+}
+.secondcontent .leftblock p:nth-child(1) {
+  font-size: 36px;
+  font-weight: 700;
+  color: #034D82;
+  letter-spacing: 0.3px;
+}
+.secondcontent .leftblock p:nth-child(2) {
+  width: 500px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #90A3B4;
+}
+.secondcontent .leftblock .links {
+  width: 162px;
+  height: 145px;
+  margin-bottom: 20px;
+}
+.secondcontent .leftblock .links .row {
+  display: flex;
+}
+.secondcontent .leftblock .links .row img {
+  width: 20.33px;
+  height: 17.33px;
+  margin-top: 2px;
+}
+.secondcontent .leftblock .links .row p {
+  margin-top: 0;
+  margin-left: 5px;
+}
+.secondcontent .leftblock a {
+  font-weight: 700;
+  color: #04AADD;
+}
+.secondcontent .leftblock a img {
+  width: 15px;
+  margin-left: 10px;
+}
+.secondcontent .notebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 699px;
+  height: 410px;
+}
+.secondcontent .notebook .lid {
+  display: flex;
+  justify-content: center;
+  width: 566px;
+  height: 384px;
+  background-color: #1A202C;
+  border: 2px solid #4A5568;
+  border-radius: 28px 28px 4px 4px;
+}
+.secondcontent .notebook .lid .darkscreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 560px;
+  height: 366px;
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 22px 22px 0 0;
+}
+.secondcontent .notebook .lid .darkscreen img {
+  width: 545px;
+  height: 351px;
+}
+.secondcontent .notebook .base {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 12.5px;
+  background: linear-gradient(90deg, #0D1012 0%, #CAD4DB 2.95%, #242729 6.25%, #A3ACB1 13.36%, #A3ACB1 86.6%, #242729 94.19%, #CAD4DB 97.13%, #0D1012 99.64%);
+  border-radius: 2px 2px 0 0;
+}
+.secondcontent .notebook .base .groove {
+  width: 116px;
+  height: 10px;
+  background: linear-gradient(90deg, #3C3C3C 9.86%, rgba(60, 60, 60, 0) 35.92%, rgba(60, 60, 60, 0) 64.08%, #444 91.93%);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.secondcontent .notebook .bottomcurve {
+  width: 700px;
+  height: 8.5px;
+  background: linear-gradient(180deg, #7A7F83 0%, #0B0B0E 100%);
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
 }
 /*# sourceMappingURL=main.css.map */
