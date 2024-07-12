@@ -491,4 +491,120 @@ header .innerchild .ring .innerring {
   background-color: #034D82;
   border-radius: 50%;
 }
+
+.fifthcontent {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 360px;
+  margin-top: 200px;
+  background: linear-gradient(90deg, #24CFED 0%, #02B8D8 100%);
+  border-radius: 8px;
+}
+.fifthcontent .leftblock {
+  width: 355px;
+  height: 231px;
+  margin: 65px 65px 65px 72px;
+}
+.fifthcontent .leftblock p {
+  color: white;
+}
+.fifthcontent .leftblock p:nth-child(1) {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.7px;
+}
+.fifthcontent .leftblock p:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.fifthcontent .leftblock .peoples {
+  width: 300px;
+  height: 37px;
+}
+.fifthcontent .leftblock .peoples img {
+  position: relative;
+}
+.fifthcontent .leftblock .peoples img:nth-child(2) {
+  right: 15px;
+}
+.fifthcontent .leftblock .peoples img:nth-child(3) {
+  right: 30px;
+}
+.fifthcontent .leftblock .peoples img:nth-child(4) {
+  right: 45px;
+}
+.fifthcontent .leftblock .peoples img:nth-child(5) {
+  right: 60px;
+}
+.fifthcontent .leftblock .peoples a {
+  position: relative;
+  right: 50px;
+  bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid white;
+}
+.fifthcontent .rightblock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100%;
+  overflow: hidden;
+}
+.fifthcontent .rightblock button {
+  z-index: 2;
+  width: 204px;
+  height: 57px;
+  font-weight: 600;
+  color: #00B8D9;
+  background-color: white;
+  border-radius: 4px;
+}
+.fifthcontent .rightblock .innerellipse {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  margin-left: 450px;
+  border: 5px solid #1FC4E2;
+  border-radius: 50%;
+}
+.fifthcontent .rightblock .innerellipse:nth-child(2) {
+  width: 816px;
+  height: 816px;
+}
+.fifthcontent .rightblock .innerellipse:nth-child(3) {
+  width: 687px;
+  height: 687px;
+}
+.fifthcontent .rightblock .innerellipse:nth-child(4) {
+  width: 570px;
+  height: 570px;
+}
+.fifthcontent .rightblock .innerellipse:nth-child(5) {
+  width: 459px;
+  height: 459px;
+}
+.fifthcontent .rightblock .innerellipse:nth-child(6) {
+  width: 344px;
+  height: 344px;
+}
+.fifthcontent .rightblock .innerellipse:nth-child(7) {
+  width: 260px;
+  height: 260px;
+}
+.fifthcontent .rightblock .innerellipse:nth-child(8) {
+  width: 146px;
+  height: 146px;
+}
 /*# sourceMappingURL=main.css.map */

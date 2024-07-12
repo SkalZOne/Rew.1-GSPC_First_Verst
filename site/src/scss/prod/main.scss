@@ -592,3 +592,140 @@ header {
         }
     }
 }
+
+.fifthcontent {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 360px;
+    margin-top: 200px;
+    background: linear-gradient(90deg, #24CFED 0%, #02B8D8 100%);
+    border-radius: 8px;
+
+    .leftblock {
+        width: 355px;
+        height: 231px;
+        margin: 65px 65px 65px 72px;
+
+        p {
+            color: white;
+
+            &:nth-child(1) {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 0.7px;
+            }
+
+            &:nth-child(2) {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.3px;
+            }
+        }
+
+        .peoples {
+            width: 300px;
+            height: 37px;
+
+            img {
+                position: relative;
+                
+                &:nth-child(2) {
+                    right: 15px;
+                }
+    
+                &:nth-child(3) {
+                    right: 30px;
+                }
+    
+                &:nth-child(4) {
+                    right: 45px;
+                }
+    
+                &:nth-child(5) {
+                    right: 60px;
+                }
+            }
+
+            a {
+                position: relative;
+                right: 50px;
+                bottom: 15px;
+                font-size: 14px;
+                font-weight: 500;
+                color: white;
+                letter-spacing: 0.3px;
+                border-bottom: 1px solid white;
+            }
+        } 
+    }
+
+    .rightblock {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 100%;
+        overflow: hidden;
+
+        button {
+            z-index: 2;
+            width: 204px;
+            height: 57px;
+            font-weight: 600;
+            color: #00B8D9;
+            background-color: white;
+            border-radius: 4px;
+        }
+
+        .innerellipse {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 300px;
+            margin-left: 450px;
+            border: 5px solid #1FC4E2;
+            border-radius: 50%;
+
+            &:nth-child(2) {
+                width: 816px;
+                height: 816px;
+            }
+
+            &:nth-child(3) {
+                width: 687px;
+                height: 687px;
+            }
+
+            &:nth-child(4) {
+                width: 570px;
+                height: 570px;
+            }
+
+            &:nth-child(5) {
+                width: 459px;
+                height: 459px;
+            }
+
+            &:nth-child(6) {
+                width: 344px;
+                height: 344px;
+            }
+
+            &:nth-child(7) {
+                width: 260px;
+                height: 260px;
+            }
+
+            &:nth-child(8) {
+                width: 146px;
+                height: 146px;
+            }
+        }
+        }
+    }
