@@ -8,6 +8,5 @@
     "requireClassLiteralsBeforeAttributes": true,
     "disallowTrailingSpaces": true,
     "disallowSpacesInsideAttributeBrackets": true,
-    "disallowLegacyMixinCall": true,
     "disallowDuplicateAttributes": true
   }

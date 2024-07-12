@@ -1,78 +1,12 @@
 extends ../layouts/layout.pug
 
 block header
-    .header
-        .logo
-            img(src="img/logo.png", alt="")
-            .oval
-        .links
-            a(href="#") Home
-            a(href="#") Landings #[img(src='img/arrow-down.png' alt='')]
-            a(href="#") Pages #[img(src='img/arrow-down.png' alt='')]
-            a(href="#") Docs
-            a(href="#") Help
-            button
-                a(href="#") Login
+    include ../includes/header/header.pug
+    include ../includes/header/innerchild.pug
 
-    .innerchild
-        .leftblock
-            p We help you #[br] grow your business faster
-                img(src="img/fasterline.png" alt="")
-            p Ehya is the Instagram analytics platform teams use to stay focused on the goals, track engagement for report your business .
-            .links
-                button
-                    a(href="#") See how it works
-                a(href="#") Get a free demo
-                    img(src="img/arrow-right.png", alt="")
-
-        .rightblock
-            img(src="img/screens.png", alt="")
-        .ring
-            .innerring
 block main
-    .firstcontent
-        .sponsores
-            img(src="img/slack.png", alt="")
-            img(src="img/netflix.png", alt="")
-            img(src="img/google.png", alt="")
-            img(src="img/airbnb.png", alt="")
-            img(src="img/uber.png", alt="")
-        .innerchild
-            .imgs
-                img(src="img/phones.png", alt="")
-                img(src="img/ringarrow.png", alt="")
-            .rightblock
-                p Measure Impressions #[br] and Reach Post
-                p Graphs displaying your performance for metrics like follower evolution, average engagement rate per post and reach and impressions to give you the insights.
-                a(href="#") Learn about graphs
-                    img(src="img/whitearrow-right.png", alt="")
-
-    .secondcontent
-        .leftblock
-            p Schedule Your Post Whenever You Want
-            p Publish your content automatically to ensure that your content reaches the right people. Built-in features such as
-            .links
-                .row
-                    img(src="img/blueok.png", alt="")
-                    p Best Time to Post
-                .row
-                    img(src="img/blueok.png", alt="")
-                    p Geolocation
-                .row
-                    img(src="img/blueok.png", alt="")
-                    p User Tag
-                .row
-                    img(src="img/blueok.png", alt="")
-                    p Others benefit
-            a Learn about scheduled post
-                img(src="img/whitearrow-right.png", alt="")
-        .notebook
-            .lid
-                .darkscreen
-                    img(src="img/notebook screen.png", alt="")
-            .base
-                .groove
-            .bottomcurve
-
+    include ../includes/main/firstblock/firstcontent.pug
+    include ../includes/main/secondblock/secondcontent.pug
+    include ../includes/main/thirdblock/thirdcontent.pug
 
 block footer

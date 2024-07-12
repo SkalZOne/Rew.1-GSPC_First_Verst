@@ -333,4 +333,65 @@ header .innerchild .ring .innerring {
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
 }
+
+.thirdcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1339px;
+  height: 600px;
+  padding-top: 80px;
+  margin-top: 150px;
+  background-color: #EFFBFF;
+}
+.thirdcontent p:nth-child(1) {
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #034D82;
+  letter-spacing: 0.3px;
+}
+.thirdcontent p:nth-child(2) {
+  line-height: 32px;
+  color: #8EA9C1;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+.thirdcontent .innerchild {
+  display: flex;
+  justify-content: space-around;
+  width: 1160px;
+  height: 300px;
+  margin-top: 76px;
+}
+.thirdcontent .innerchild .card {
+  width: 259px;
+  height: 300px;
+  background-color: white;
+  border-radius: 8px;
+}
+.thirdcontent .innerchild .card .innercontent {
+  width: 198px;
+  height: 202px;
+  margin: 28px;
+}
+.thirdcontent .innerchild .card .innercontent img {
+  width: 56px;
+  height: 56px;
+}
+.thirdcontent .innerchild .card .innercontent p:nth-child(2) {
+  margin-top: 26px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #034D82;
+  text-align: left;
+  letter-spacing: 0.2px;
+}
+.thirdcontent .innerchild .card .innercontent p:nth-child(3) {
+  font-size: 15px;
+  line-height: 24px;
+  color: #8EA9C1;
+  letter-spacing: 0.3px;
+}
 /*# sourceMappingURL=main.css.map */

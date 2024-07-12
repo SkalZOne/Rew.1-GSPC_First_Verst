@@ -1,0 +1,12 @@
+mixin card(src, text, text2)
+    .card
+        .innercontent
+            img(src=src, alt="")
+            p= text
+            p= text2
+
+.innerchild
+    +card('img/red.png', 'Hashtag Growth', 'Follow a hashtag growth total posts, videos and images.')
+    +card('img/blue.png', 'Influencers by Hashtag', 'Identify the most influential people posting with your hashtag.')
+    +card('img/yellow.png', 'Most Influental Post', 'See the most influential posts on hashtag you are following on.')
+    +card('img/green.png', 'Hashtag Location', 'Visualize where people are posting using your hashtag made.')
