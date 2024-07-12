@@ -21,7 +21,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 878px;
+  height: 874px;
   padding-top: 30px;
   color: white;
   background: linear-gradient(180deg, #1dc0f1 0%, #05a4da 100%);
@@ -32,7 +32,6 @@ header .header {
   justify-content: space-between;
   width: 95%;
   height: 38px;
-  border: 2px solid black;
 }
 header .logo {
   display: flex;
@@ -122,7 +121,7 @@ header .innerchild .rightblock {
   left: 595px;
   z-index: 2;
   width: 1038px;
-  height: 712px;
+  height: 666px;
   overflow: hidden;
 }
 header .innerchild .ring {
@@ -143,5 +142,92 @@ header .innerchild .ring .innerring {
   height: 275px;
   background-color: #1EBBEB;
   border-radius: 50%;
+}
+
+.firstcontent {
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1339px;
+  height: 1100px;
+  background-color: white;
+  border: 2px solid black;
+}
+.firstcontent .sponsores {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1100px;
+  height: 38.81px;
+  margin-top: 100px;
+}
+.firstcontent .sponsores img:nth-child(1) {
+  width: 120.7px;
+  height: 40.83px;
+}
+.firstcontent .sponsores img:nth-child(2) {
+  width: 130.7px;
+  height: 40.83px;
+}
+.firstcontent .sponsores img:nth-child(3) {
+  width: 125.7px;
+  height: 40.83px;
+}
+.firstcontent .sponsores img:nth-child(4) {
+  width: 125.7px;
+  height: 42.01px;
+}
+.firstcontent .sponsores img:nth-child(5) {
+  width: 135.7px;
+  height: 30.01px;
+}
+.firstcontent .innerchild {
+  border: 2px solid rgb(255, 0, 0);
+  margin-top: 100px;
+  width: 1139px;
+  height: 888px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.firstcontent .innerchild .imgs {
+  width: 694px;
+  height: 800px;
+}
+.firstcontent .innerchild .imgs img:nth-child(2) {
+  position: relative;
+  right: 11px;
+  bottom: 620px;
+  width: 720.4px;
+  height: 705.45px;
+}
+.firstcontent .innerchild .rightblock {
+  border: 2px solid black;
+  width: 485px;
+  height: 500px;
+  padding-top: 100px;
+}
+.firstcontent .innerchild .rightblock p:nth-child(1) {
+  color: #034D82;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.firstcontent .innerchild .rightblock p:nth-child(2) {
+  margin-top: 30px;
+  color: #90A3B4;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.firstcontent .innerchild .rightblock a {
+  color: #04AADD;
+  font-weight: 700;
+}
+.firstcontent .innerchild .rightblock a img {
+  position: relative;
+  top: 1.5px;
+  left: 10px;
+  width: 15px;
 }
 /*# sourceMappingURL=main.css.map */
