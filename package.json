@@ -29,6 +29,7 @@
     "sass": "^1.77.6",
     "stylelint": "^16.6.1",
     "stylelint-config-recess-order": "^5.0.1",
-    "stylelint-config-standard": "^36.0.1"
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-scss": "^6.4.1"
   }
 }
